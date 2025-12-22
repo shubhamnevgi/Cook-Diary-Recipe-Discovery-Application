@@ -1,16 +1,149 @@
-# flutter_application_1
+# 🍳 Cook Diary - Recipe Discovery App
 
-A new Flutter project.
+A beautiful Flutter mobile application for discovering, exploring, and managing recipes from cuisines around the world. Built with **Flutter**, **Firebase**, and **TheMealDB API**.
 
-## Getting Started
+![Flutter](https://img.shields.io/badge/Flutter-3.x-blue?logo=flutter)
+![Firebase](https://img.shields.io/badge/Firebase-Realtime-orange?logo=firebase)
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Quick Start
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Prerequisites
+* Flutter 3.x installed ([Install Flutter](https://docs.flutter.dev/get-started/install))
+* Android/iOS development environment configured
+* Firebase project created ([Firebase Console](https://console.firebase.google.com/))
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Installation
+1. **Clone the repository**
+   ```bash
+   git clone [https://github.com/yourname/cook-diary.git](https://github.com/yourname/cook-diary.git)
+   cd cook-diary
+
+   ```
+   
+2. **Install dependencies**
+   ```bash
+   flutter pub get
+   
+   ```
+
+3. **Configure Firebase**
+* Run `flutterfire configure` to generate `firebase_options.dart`.
+* **For Android:** Download `google-services.json` from Firebase Console and place it in `android/app/`.
+* **For iOS:** Download `GoogleService-Info.plist` and place it in `ios/Runner/`.
+
+
+4. **Run the app**
+```bash
+flutter run
+
+```
+
+## 🔑 API Integration
+
+### TheMealDB API Endpoints
+
+* **Search:** `https://www.themealdb.com/api/json/v1/1/search.php?s={query}`
+* **Categories:** `https://www.themealdb.com/api/json/v1/1/categories.php`
+* **Filter by Category:** `https://www.themealdb.com/api/json/v1/1/filter.php?c={category}`
+* **Filter by Area:** `https://www.themealdb.com/api/json/v1/1/filter.php?a={area}`
+* **Meal Details:** `https://www.themealdb.com/api/json/v1/1/lookup.php?i={id}`
+
+*No API key required - Free public API 🎉*
+
+## 📸 Screenshots
+
+### Authentication Flow
+
+* Welcome page with Get Started & Login buttons
+* Registration with email validation and profile image upload
+* Login with error handling
+
+### Recipe Discovery
+
+* Real-time search with instant results
+* 2-column responsive grid layout
+* Category and country filtering
+
+### Recipe Details
+
+* Full ingredient list with measurements
+* Step-by-step instructions
+* YouTube link integration
+* Recipe metadata (tags, cuisine type)
+
+## 🔄 User Flow
+
+## 🎯 Usage Examples
+
+### Search for Recipes
+
+1. Tap **"Home"** tab.
+2. Enter recipe name (e.g., "Pasta", "Biryani").
+3. Browse results in 2-column grid.
+4. Tap recipe card to view details.
+
+### Explore by Category
+
+1. Tap **"Explore"** tab.
+2. Scroll down to **"Explore by Category"**.
+3. Tap any cuisine type.
+4. View all recipes in that category.
+
+### Explore by Country
+
+1. Tap **"Explore"** tab.
+2. Tap any country tile (top section).
+3. View all recipes from that cuisine area.
+
+### View Recipe Details
+
+1. Tap any recipe card.
+2. See ingredients, measurements, instructions.
+3. Copy ingredient list.
+4. Tap YouTube link to watch video.
+
+## 🐛 Known Issues & Future Improvements
+
+### Current Limitations
+
+* ⚠️ No recipe bookmarking/favorites feature yet
+* ⚠️ No image caching (uses `Image.network`)
+* ⚠️ Limited search filters (no prep time, difficulty level)
+* ⚠️ No shopping list functionality
+
+### Planned Features
+
+* 📋 Save favorite recipes to Firestore
+* 🖼️ Implement image caching with `cached_network_image`
+* ⏱️ Add advanced filters (prep time, difficulty, dietary restrictions)
+* 🛒 Shopping list feature with ingredient collection
+* 🌙 Improved dark mode styling
+* 📱 Tablet-optimized layout
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit changes (`git commit -m 'Add AmazingFeature'`)
+4. Push to branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 🙏 Acknowledgments
+
+* Flutter Documentation
+* Firebase Documentation
+* TheMealDB API
+* Lottie Animations
+
+## 📞 Support
+
+If you encounter any issues, please:
+
+1. Check existing Issues
+2. Create a new issue with detailed description
+3. Include device model, Flutter version, and error logs
+
+*Made with ❤️*
