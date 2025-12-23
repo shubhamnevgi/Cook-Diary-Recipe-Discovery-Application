@@ -71,7 +71,7 @@ flutter run
 
 | Profile page | Dark Mode |
 | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/63ef075c-72ac-4b2e-8163-75861161b6d0)" width="250"> | <img src="https://github.com/user-attachments/assets/9b1e910b-c5e1-4ebc-ba01-719dd474afd3" width="250"> |
+| <img src="https://github.com/user-attachments/assets/63ef075c-72ac-4b2e-8163-75861161b6d0" width="250"> | <img src="https://github.com/user-attachments/assets/9b1e910b-c5e1-4ebc-ba01-719dd474afd3" width="250"> |
 
 
 ## 🐛 Known Issues & Future Improvements
