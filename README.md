@@ -16,7 +16,7 @@ A beautiful Flutter mobile application for discovering, exploring, and managing 
 ### Installation
 1. **Clone the repository**
    ```bash
-   git clone [https://github.com/yourname/cook-diary.git](https://github.com/yourname/cook-diary.git)
+   git clone https://github.com/shubhamnevgi/Cook-Diary-Recipe-Discovery-Application.git
    cd cook-diary
 
    ```
@@ -57,7 +57,6 @@ flutter run
 
 * Welcome page with Get Started & Login buttons
 * Registration with email validation and profile image upload
-* Login with error handling
 
 ### Recipe Discovery
 
@@ -71,37 +70,6 @@ flutter run
 * Step-by-step instructions
 * YouTube link integration
 * Recipe metadata (tags, cuisine type)
-
-## 🔄 User Flow
-
-## 🎯 Usage Examples
-
-### Search for Recipes
-
-1. Tap **"Home"** tab.
-2. Enter recipe name (e.g., "Pasta", "Biryani").
-3. Browse results in 2-column grid.
-4. Tap recipe card to view details.
-
-### Explore by Category
-
-1. Tap **"Explore"** tab.
-2. Scroll down to **"Explore by Category"**.
-3. Tap any cuisine type.
-4. View all recipes in that category.
-
-### Explore by Country
-
-1. Tap **"Explore"** tab.
-2. Tap any country tile (top section).
-3. View all recipes from that cuisine area.
-
-### View Recipe Details
-
-1. Tap any recipe card.
-2. See ingredients, measurements, instructions.
-3. Copy ingredient list.
-4. Tap YouTube link to watch video.
 
 ## 🐛 Known Issues & Future Improvements
 
