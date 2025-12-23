@@ -51,23 +51,6 @@ flutter run
 
 *No API key required - Free public API 🎉*
 
-## 📸 Screenshots
-
-### Authentication Flow
-
-* Welcome page with Get Started & Login buttons
-
-![Screenshot_2025-12-23-18-03-52-88_e8f1bd4c4634587c7e6d06270ae2bad2](https://github.com/user-attachments/assets/9631e488-2001-478a-9a29-9b7eba89650c)
-
-
-* Registration with email validation and profile image upload
-
-![Screenshot_2025-12-23-18-04-07-29_e8f1bd4c4634587c7e6d06270ae2bad2](https://github.com/user-attachments/assets/0f02ee87-aaa6-4718-bc72-3441099e491c)
-
-* Login with email and password (Firebase authentication)
-
-![Screenshot_2025-12-23-18-16-27-19_e8f1bd4c4634587c7e6d06270ae2bad2](https://github.com/user-attachments/assets/b014afa7-912b-42dd-b0e6-2f7feec7f220)
-
 ### 📸 Screenshots
 
 ### Authentication Flow
