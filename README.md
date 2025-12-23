@@ -1,4 +1,4 @@
-#🍳 Cook Diary - Recipe Discovery App
+# 🍳 Cook Diary - Recipe Discovery App
 
 A beautiful Flutter mobile application for discovering, exploring, and managing recipes from cuisines around the world. Built with **Flutter**, **Firebase**, and **TheMealDB API**.
 
