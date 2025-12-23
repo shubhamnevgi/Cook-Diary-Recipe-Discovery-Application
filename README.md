@@ -74,7 +74,7 @@ flutter run
 
 | Welcome Page | Registration | Login Page |
 | --- | --- | --- |
-| <img src="[https://github.com/user-attachments/assets/9631e488-2001-478a-9a29-9b7eba89650c](https://github.com/user-attachments/assets/9631e488-2001-478a-9a29-9b7eba89650c)" width="250"> | <img src="[https://github.com/user-attachments/assets/0f02ee87-aaa6-4718-bc72-3441099e491c](https://github.com/user-attachments/assets/0f02ee87-aaa6-4718-bc72-3441099e491c)" width="250"> | <img src="[https://github.com/user-attachments/assets/b014afa7-912b-42dd-b0e6-2f7feec7f220](https://github.com/user-attachments/assets/b014afa7-912b-42dd-b0e6-2f7feec7f220)" width="250"> |
+| <img src="![Screenshot_2025-12-23-18-03-52-88_e8f1bd4c4634587c7e6d06270ae2bad2](https://github.com/user-attachments/assets/9631e488-2001-478a-9a29-9b7eba89650c)" width="250"> | <img src="![Screenshot_2025-12-23-18-04-07-29_e8f1bd4c4634587c7e6d06270ae2bad2](https://github.com/user-attachments/assets/0f02ee87-aaa6-4718-bc72-3441099e491c)" width="250"> | <img src="![Screenshot_2025-12-23-18-16-27-19_e8f1bd4c4634587c7e6d06270ae2bad2](https://github.com/user-attachments/assets/b014afa7-912b-42dd-b0e6-2f7feec7f220)" width="250"> |
 
 ### Recipe Discovery
 
