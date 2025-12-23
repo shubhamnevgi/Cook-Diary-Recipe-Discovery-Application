@@ -1,4 +1,4 @@
-# 🍳 Cook Diary - Recipe Discovery App
+![Screenshot_2025-12-23-18-16-17-34_e8f1bd4c4634587c7e6d06270ae2bad2](https://github.com/user-attachments/assets/5f3c070a-fb9d-4ddd-b83b-78b75e633c46)# 🍳 Cook Diary - Recipe Discovery App
 
 A beautiful Flutter mobile application for discovering, exploring, and managing recipes from cuisines around the world. Built with **Flutter**, **Firebase**, and **TheMealDB API**.
 
@@ -62,16 +62,17 @@ flutter run
 
 ### Recipe Discovery
 
-* Real-time search with instant results
-* 2-column responsive grid layout
-* Category and country filtering
 
-### Recipe Details
+| Home Page | Real-time search | Explore Page | Country filtering | Category filtering | Recipe page
+| :---: | :---: | :---: | ---: | :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/222633a3-e64c-4beb-a4c0-e5849b8b5d90" width="250"> | <img src="https://github.com/user-attachments/assets/ae0b5924-8b8e-4d2e-b624-fdecbbd58e02" width="250"> | <img src="https://github.com/user-attachments/assets/56a814f0-8623-40af-9a34-e7f5c4a72a49" width="250"> | <img src="https://github.com/user-attachments/assets/a0d6d36f-9dbf-4a85-b927-27d4af2358d5" width="250"> | <img src="https://github.com/user-attachments/assets/9ade8834-25a9-4b27-bb3c-fe6e1e144476" width="250"> | <img src="https://github.com/user-attachments/assets/eda56e70-a104-49cc-b515-2cd0bce0fa09" width="250"> |
 
-* Full ingredient list with measurements
-* Step-by-step instructions
-* YouTube link integration
-* Recipe metadata (tags, cuisine type)
+### Other
+
+| Profile page | Dark Mode |
+| :---: | :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/63ef075c-72ac-4b2e-8163-75861161b6d0)" width="250"> | <img src="https://github.com/user-attachments/assets/9b1e910b-c5e1-4ebc-ba01-719dd474afd3" width="250"> |
+
 
 ## 🐛 Known Issues & Future Improvements
 
