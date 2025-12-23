@@ -27,10 +27,40 @@ A beautiful Flutter mobile application for discovering, exploring, and managing 
    
    ```
 
-3. **Configure Firebase**
-   * Run `flutterfire configure` to generate `firebase_options.dart`.
-   * **For Android:** Download `google-services.json` from Firebase Console and place it in `android/app/`.
-   * **For iOS:** Download `GoogleService-Info.plist` and place it in `ios/Runner/`.
+3. Configure Firebase
+
+   This project requires a Firebase connection for Authentication and Storage. Follow these steps to link your own Firebase project:
+   
+   #### **A. Install Firebase CLI & FlutterFire**
+   
+   If you haven't installed the tools yet, run:
+   
+   ```bash
+   npm install -g firebase-tools
+   dart pub global activate flutterfire_cli
+   
+   ```
+   
+   #### **B. Initialize Firebase in Project**
+   
+   Log in and run the configuration tool. This will automatically create your Android/iOS apps in the console and generate the `firebase_options.dart` file.
+   
+   ```bash
+   firebase login
+   flutterfire configure
+   
+   ```
+   
+   *When prompted, select your project name and choose the platforms: **android, ios, web**.*
+   
+   #### **C. Set up Firebase Services**
+   
+   To ensure the app features work, you must enable these in your [Firebase Console](https://console.firebase.google.com/):
+   
+   1. **Authentication:** Enable **Email/Password** sign-in method.
+   2. **Firestore Database:** Create a database in **Production Mode** (or Test Mode) and set your rules.
+   3. **Cloud Storage:** Enable Storage to allow profile image uploads.
+   4. **Web Support (Optional):** If hosting on the web, add your domain to the **Authorized Domains** list in the Authentication settings.
 
 
 4. **Run the app**
@@ -38,6 +68,7 @@ A beautiful Flutter mobile application for discovering, exploring, and managing 
    flutter run
    
    ```
+
 
 ## 🔑 API Integration
 
