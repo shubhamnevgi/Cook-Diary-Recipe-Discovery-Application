@@ -28,16 +28,16 @@ A beautiful Flutter mobile application for discovering, exploring, and managing 
    ```
 
 3. **Configure Firebase**
-* Run `flutterfire configure` to generate `firebase_options.dart`.
-* **For Android:** Download `google-services.json` from Firebase Console and place it in `android/app/`.
-* **For iOS:** Download `GoogleService-Info.plist` and place it in `ios/Runner/`.
+   * Run `flutterfire configure` to generate `firebase_options.dart`.
+   * **For Android:** Download `google-services.json` from Firebase Console and place it in `android/app/`.
+   * **For iOS:** Download `GoogleService-Info.plist` and place it in `ios/Runner/`.
 
 
 4. **Run the app**
-```bash
-flutter run
-
-```
+   ```bash
+   flutter run
+   
+   ```
 
 ## 🔑 API Integration
 
@@ -81,7 +81,6 @@ flutter run
 * ⚠️ No recipe bookmarking/favorites feature yet
 * ⚠️ No image caching (uses `Image.network`)
 * ⚠️ Limited search filters (no prep time, difficulty level)
-* ⚠️ No shopping list functionality
 
 ### Planned Features
 
